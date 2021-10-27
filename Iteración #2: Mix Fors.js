@@ -55,4 +55,6 @@ for (let i of users) {
     media = suma / tamFavoritesSounds;
     sumaMediaTotal += media;
 }
+
+sumaMediaTotal = sumaMediaTotal / users.length;
 console.log(sumaMediaTotal);
